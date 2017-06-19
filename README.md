@@ -1,5 +1,7 @@
 # React Slot Machine Button
 
+:slot_machine:
+
 ## Install and Import
 
 ```sh
@@ -55,6 +57,15 @@ import SlotMachineButton from 'slot-machine-button';
 ```
 
 ## Children
+
+There are two props can be passed to the children:
+
+- `data-slot-disable` to disable the effect for the child even if it's placed within the component.
+
+- `data-slot-duplicate` to clone the child, in order to have two identical children to do the effect.
+
+Each group of children will be placed in a `.wheel` class,
+and the elements of two states inside will have the classes `.active.part` or `.idle.part` respectively.
 
 ## PropTypes
 
