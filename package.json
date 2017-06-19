@@ -26,5 +26,22 @@
     "react-dom": "^15.6.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
-  }
+  },
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jam3/slot-machine-button.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "slot machine",
+    "button",
+    "effect"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/slot-machine-button/issues"
+  },
+  "homepage": "https://github.com/Jam3/slot-machine-button#readme"
 }

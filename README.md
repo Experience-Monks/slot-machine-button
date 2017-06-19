@@ -2,7 +2,57 @@
 
 ## Install and Import
 
+```sh
+npm i -S slot-machine-button
+```
+
+Within a React project:
+
+```jsx
+// SomeCompnent.js
+
+import React from 'react';
+import SlotMachineButton from 'slot-machine-button';
+
+// ...
+```
+
 ## Example
+
+#### 1 minute setup
+
+```jsx
+<SlotMachineButton
+  activeOnHover={true}
+>
+  <span>Slot</span>
+  <span>Slot</span>
+  <span>Machine</span>
+  <span>Machine</span>
+  <span>Button</span>
+  <span>Button</span>
+</SlotMachineButton>
+```
+
+#### A more complex one
+
+```jsx
+<SlotMachineButton
+  activeOnHover={true}
+  bottomToTop={true}
+  delay={[0, 0.3]}
+  element="div"
+  className="slot-machine-button"
+  fadeBack={true}
+  domAttributes={{
+    'aria-label': 'button'
+  }}
+>
+  <span data-slot-disable>Slot</span>
+  <span data-slot-duplicate>Machine</span>
+  <span data-slot-duplicate>Button</span>
+</SlotMachineButton>
+```
 
 ## Children
 
@@ -63,4 +113,14 @@ These css rules are usually used to vertically center the content in the button
   display: flex;
   align-items: center;
 }
+```
+
+## Test & Development
+
+```sh
+git clone https://github.com/Jam3/slot-machine-button.git
+cd slot-machine-button
+
+npm i
+npm t
 ```
