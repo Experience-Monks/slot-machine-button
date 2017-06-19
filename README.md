@@ -2,10 +2,12 @@
 
 :slot_machine:
 
+![Slot Machine Button Demo](demo/demo.gif)
+
 ## Install and Import
 
 ```sh
-npm i -S slot-machine-button
+npm i slot-machine-button -S
 ```
 
 Within a React project:

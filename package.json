@@ -7,7 +7,7 @@
   "jsnext:main": "index.js",
   "scripts": {
     "build": "webpack --config build.config.js",
-    "test": "webpack-dev-server"
+    "test": "webpack-dev-server --open"
   },
   "peerDependencies": {
     "gsap": "^1.19.1",
