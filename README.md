@@ -1,6 +1,6 @@
 # React Slot Machine Button
 
-:slot_machine:
+[![npm](https://img.shields.io/npm/v/slot-machine-button.svg?style=flat-square)](https://www.npmjs.com/package/slot-machine-button)
 
 ![Slot Machine Button Demo](demo/demo.gif)
 
