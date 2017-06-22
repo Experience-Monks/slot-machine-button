@@ -1,4 +1,5 @@
-demo
+demo/*
+!demo/demo.gif
 *.config.js
 .babelrc
 .editorconfig
