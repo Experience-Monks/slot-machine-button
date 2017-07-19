@@ -13,7 +13,7 @@ npm i slot-machine-button -S
 Within a React project:
 
 ```jsx
-// SomeCompnent.js
+// SomeComponent.js
 
 import React from 'react';
 import SlotMachineButton from 'slot-machine-button';
