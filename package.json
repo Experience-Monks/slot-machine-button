@@ -13,8 +13,8 @@
   "peerDependencies": {
     "gsap": "^1.20.2",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
